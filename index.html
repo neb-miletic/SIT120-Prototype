@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Best Movies</title>
+</head>
+<body>
+
+    <!-- Prototype of Navbar. I used Bootstrap just for design purpose -->
+    
+    <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="img/The Best (4).png"  width="150" height="100" >
+        <a class="navbar-brand text-white" href="#">Movies</a>
+        <a class="navbar-brand text-white" href="#">TV Shows</a>
+        <a class="navbar-brand text-white" href="#">People</a>
+      <form class="d-flex">
+        <button class="btn bg-danger text-white" type="submit">Search</button>
+        <input class="form-control me-2" type="search"  aria-label="Search">
+      </form>
+    </div>
+  </nav>
+  <!-- Container with the greay body -->
+  <div class="container-fluid" id="body-div">
+      <h1>What's on</h1>
+      
+      <!-- Cards for rendering movies -->
+        <div class="card-group">
+
+            <div class="card">
+                <img src="img/Peaky Blinders.jpeg" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">Peaky Blinders</h5>
+                    <p class="card-text">Sep 12, 2013</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Teen Titans go.jpeg" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">Teen Titans Go! See Space Jam </h5>
+                    <p class="card-text">Jun 20, 2021</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Game Of Thrones.jpeg" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">Game Of Thrones</h5>
+                    <p class="card-text">Apr 17, 2011</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/Loki.jpeg" class="card-img-top" >
+                <div class="card-body">
+                    <h5 class="card-title">Loki</h5>
+                    <p class="card-text">Jun 09, 2021</p>
+                </div>
+            </div>
+        </div>
+  </div>
+  
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
